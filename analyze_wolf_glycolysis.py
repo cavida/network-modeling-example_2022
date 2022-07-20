@@ -2,7 +2,7 @@
 """
 Created on Mon Jul 19 06:54:30 2021
 
-@author: Lucian
+@author: Lucian And Cavid
 """
 
 import tellurium as te
@@ -26,7 +26,7 @@ model *Wolf2000_Glycolytic_Oscillations()
   v0:  -> s1; k0;
 
   // Species initializations:
-  s1 = 1;
+  s1 = 2000;
   atp = 2;
   adp = atot - atp
   pIn = 1000
